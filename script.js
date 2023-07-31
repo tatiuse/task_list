@@ -15,10 +15,15 @@ const toggleEmptyListMessage = function () {
 };
 
 const addCheckHandler = function (item) {
-	var checkbox = item.querySelector('.todo-list-input');
+	const checkbox = item.querySelector('.todo-list-input');
 	checkbox.addEventListener('change', function () {
-		item.remove();
-		toggleEmptyListMessage();
+
+		setTimeout(() => {
+			item.remove();
+			toggleEmptyListMessage();
+		}, 1000);
+
+
 	});
 };
 

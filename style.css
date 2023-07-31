@@ -93,8 +93,8 @@
  }
  
  .todo-list-input:checked + span::before {
-	background-color: #69b253;
-	background-image: url("check-white.svg");
+	/*background-color: #69b253;*/
+	background-image: url("img/animated_tick.gif");
 	background-repeat: no-repeat;
 	background-position: center;
  }
@@ -116,7 +116,7 @@
  
 	margin-right: 13px;
  
-	background-image: url("check-green.svg");
+	background-image: url("img/animated_tick.gif");
 	background-repeat: no-repeat;
 	background-position: center;
  }
